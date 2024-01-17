@@ -1,0 +1,53 @@
+div{
+    border: 1px solid blue;
+    height: 600px;
+
+    /*
+    Background Property : not a Single Property
+    it's Collaction of Multiple Property.
+      */
+
+    /* background-color: blue; */
+    /* background-color: #0000ff; */
+
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/974/565/254/windows-11-windows-10-minimalism-hd-wallpaper-preview.jpg");
+    background-size: 350px 250px;
+                        /*Height  */
+    /* background-size: contain; */
+
+                    /* Width */
+    /* background-size: cover; */
+    /* background-size: cover contain; */
+    /* background-size: 100% 100%; */
+
+
+    /* background-repeat: repeat; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: space; */
+    /* background-repeat: round; */
+                        /*X     Y */
+    /* background-repeat: repeat round; */
+
+
+    /* default */
+    /* background-position: 0px 0px; */
+    /* background-position: 0% 0%; */
+    /* background-position: left top; */
+    /* background-position: 0px top; */
+
+    /* background-position: left; */
+    /* background-position: right;  */
+    /* background-position: top; */
+    /* background-position: bottom; */
+    /* background-position: center; */
+
+    /* background-position: right bottom; */
+
+    /* background-position: 100px 200px; */
+
+    /* background-position: 20% 70%; */
+
+    /* background-position: 500px 20%; */
+}
