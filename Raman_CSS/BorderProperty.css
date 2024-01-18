@@ -1,0 +1,108 @@
+div{
+    width: 400px;
+    height: 300px;
+    background-color: aqua;
+    /* margin: 100px auto; */
+
+    /* Border : Group of Multiple Properties */
+    /* border: 1px solid black; */
+    /* border: 10px,20px solid red; */
+    
+    /* border-style: solid; */
+    /* border-style: dashed; */
+    /* border-style: dotted; */
+    /* border-style: double; */
+    /* border-style: groove; */
+    /* border-style: ridge; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+    /* border-style: none; */
+    /* border-style: solid dashed; */
+    /* border-style: solid dashed double none; */
+    
+    /* border-style: ridge; */
+    /* border-style: ridge  groove groove ridge; */
+
+    /* all side */
+    /* border-width: 10px; */
+    /* top/bottom     left/right */
+    /* border-width: 10px 20px; */
+    /* all side different */
+    /* border-width: 10px 20px 30px 40px; */
+
+    /* all side */
+    /* border-color: blue; */
+    /* top/bottom     left/right */
+    /* border-color: blue red; */
+    /* border-color: blue red yellow green; */
+
+
+
+    /* border-top: 10px solid red; */
+    /* border-top-style: double;
+    border-top-width: 10px;
+    border-top-color: red; */
+
+    /* border-bottom: 10px solid green; */
+    /* border-bottom-style: double;
+    border-bottom-width: 10px;
+    border-bottom-color: red; */
+    /* border-left: 10px solid yellow; */
+    /* border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: red; */
+    /* border-right: 10px solid blue; */
+    /* border-right-style: double;
+    border-right-width: 10px;
+    border-right-color: red; */
+
+
+    /* border: 10px solid blue; */
+
+
+    /* border-radius: 0px; */
+    /* border-radius: 30px; */
+    /* border-radius: 0%; */
+    /* border-radius: 50%; */
+
+    /* all side  */
+    /* border-radius: 30px; */
+    /* border-radius: 20px 50px 70px 100px; */
+
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 300px; */
+
+    /* 
+    border-start-start-radius: 50px;
+    border-end-start-radius: 100px;
+    border-end-end-radius: 50px;
+    border-start-end-radius: 10px;
+
+    */
+
+    border: 30px solid ;
+
+    border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-1.png");
+    border-image-slice: 27;
+    /* border-image-repeat: stretch; */
+    /* border-image-repeat: repeat; */
+    /* border-image-repeat:space; */
+    border-image-repeat:round;
+    border-image-width: 40px;
+    border-image-outset: 100px;     
+}
+
+#zfr1{
+    width: 300px;
+    border: ;
+}
+/*
+cricket team  : 11 player 
+11 img 
+5 img (border property)
+4img  (border radius)
+2 img (border img)
+
+*/
