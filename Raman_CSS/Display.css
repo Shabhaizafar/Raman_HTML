@@ -1,0 +1,51 @@
+div{
+    background-color: aqua;
+    /* display: block; */
+    /* display: inline; */
+    display: inline-block;
+
+    /* width: 300px; */
+    /* height: 200px; */
+    /* margin: 100px; */
+    /* margin: auto; */
+    /* padding: 20px; */
+    /* margin: -4px; */
+}
+
+
+/* 
+Display : 
+
+1) Block : 
+    - width default 100%
+    - height default auto (based on content inside the element)
+    - width Changable
+    - height Changable
+    - margin all side workable
+    - margin auto workable
+    - padding workable
+    - Content Position Change Changable
+    - always start and end with new-Line
+
+2) inline : 
+    - default width Content Size 
+    - height based on font size
+    - width not changable, it's just adjust to fit in line.
+    - height not changable too.
+    - margin workable(only left /right)  (top/bottom not work)
+    - margin auto not workable
+    - padding workable
+    - Content Position Stay where is.
+    - always start and end with white space
+
+3) inline-block : 
+    - default width Content Size 
+    - height based on font size
+    - width Changable
+    - height Changable
+    - margin all side workable
+    - margin auto not workable
+    - padding workable
+    - Content Position Change Changable
+    - always start and end with white space
+*/
