@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    /* display: inline-block; */
+    flex-grow: 1;
+}
+
+main{
+    background-color: cadetblue;
+    height: 600px;
+    display: flex;
+
+    /* default */
+    /* justify-content: start; */
+    /* justify-content: flex-start; */
+    /* justify-content: left; */
+    /* justify-content: stretch; */
+
+    /* justify-content: end; */
+    /* justify-content: flex-end; */
+    /* justify-content: right; */
+
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    
+
+    /* default */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+
+    /* flex-flow: column; */
+    /* flex-flow: wrap; */
+    /* flex-flow: row-reverse wrap; */
+
+    
+
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: green;
+}
+.box4{
+    background-color: blue;
+}
+.box5{
+    background-color: goldenrod;
+    flex-grow: 2;
+}
+.box6{
+    background-color: purple;
+}
+.box7{
+    background-color: aqua;
+}
+.box8{
+    background-color: violet;
+}
+
+/* 
+Parent : 
+    justify-content: ;
+    flex-direction: ;
+    flex-wrap: ;
+    flex-flow: ;
+
+
+    align-items: ;
+    gap: ;
+    row-gap: ;
+    column-gap: ;
+
+
+Child : 
+    flex-grow: ;
+
+    flex-shrink: ;
+    flex-basis: ;
+    align-self: ;
+    order: ;
+    
+
+
+*/
+
+/* https://res.cloudinary.com/practicaldev/image/fetch/s--nQgj2FWx--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/03iduji2vo00lo1vbanr.gif */

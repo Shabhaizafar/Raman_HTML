@@ -1,0 +1,41 @@
+div{
+    width: 700px;
+    border: 1px solid black;   
+    position: relative;
+}
+img{
+    width: 300px;
+    /* Position Static   default */
+    /* position: static; */
+    
+
+    /* 
+        - space fix
+        - Move Anywhere
+        - scroll  (change position)
+
+     */
+    /* position: relative; */
+
+    /* 
+        - space not fixed
+        - Move Anywhere
+        - scroll  (change position)
+        - body (refference)
+     */
+    /* position: absolute; */
+
+
+    /* 
+        - space not fixed
+        - Move Anywhere
+        - not scrolling
+        - body (refference)
+     */
+    /* position: fixed; */
+    /* position: sticky; */
+    /* top: 0px; */
+    /* left: ; */
+    /* right: ; */
+    /* bottom: ; */
+}
