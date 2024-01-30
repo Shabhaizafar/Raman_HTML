@@ -2,12 +2,14 @@
     margin: 0px;
     padding: 0px;
 }
-div{
+div,h1,h2{
     /* display: inline-block; */
     flex-grow: 1;
+    flex-basis: 170px;
 }
 
 main{
+    width: 1200px;
     background-color: cadetblue;
     height: 600px;
     display: flex;
@@ -37,7 +39,7 @@ main{
 
 
     /* flex-wrap: nowrap; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     /* flex-wrap: wrap-reverse; */
 
 
@@ -45,14 +47,33 @@ main{
     /* flex-flow: wrap; */
     /* flex-flow: row-reverse wrap; */
 
-    
+    /* row-gap: 10px;     */
+    /* column-gap: 20px; */
 
+        /* row   column  */
+    /* gap: 20px 50px; */
+
+    /* align-items: start; */
+    /* align-items: flex-start; */
+
+    /* align-items: end; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+
+    /* align-items: baseline; */
+    /* align-items: first baseline; */
+    /* align-items: last baseline; */
 }
 .box1{
     background-color: red;
+    order: 2;
 }
 .box2{
+    /* align-self: center; */
     background-color: yellow;
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+    order: 1;
 }
 .box3{
     background-color: green;
@@ -62,7 +83,7 @@ main{
 }
 .box5{
     background-color: goldenrod;
-    flex-grow: 2;
+    /* flex-grow: 2; */ 
 }
 .box6{
     background-color: purple;
@@ -72,6 +93,7 @@ main{
 }
 .box8{
     background-color: violet;
+    /* flex-shrink: 2; */
 }
 
 /* 
@@ -80,20 +102,20 @@ Parent :
     flex-direction: ;
     flex-wrap: ;
     flex-flow: ;
-
-
-    align-items: ;
     gap: ;
     row-gap: ;
     column-gap: ;
+    align-items: ;
+
+
 
 
 Child : 
     flex-grow: ;
+    align-self: ;
+    flex-basis: ;
 
     flex-shrink: ;
-    flex-basis: ;
-    align-self: ;
     order: ;
     
 
