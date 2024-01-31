@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.wrapper{
+    height: 600px;
+}
 body{
     background-color: gray;
 }
@@ -107,4 +110,54 @@ body{
     background-color: rgb(255, 38, 0);
     border-radius: 4px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* ------------- */
+section{
+    padding: 50px;
+}
+section h3{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+section p{
+    text-align: center;
+    font-size: 12px;
+    line-height: 5px;
+}
+main{
+    width: 70%;
+    display: flex;
+    gap: 30px;
+    margin: 30px auto;
+    flex-wrap: wrap;
+}
+main i{
+    flex-grow: 1;
+    text-align: center;
+    padding: 80px 0px;
+    font-size: 30px;
+    color: white;
+    flex-basis: 150px;
+}
+.fa-file-code{
+    background-color: rgb(16, 245, 169);
+}
+.fa-location-arrow{
+    background-color: orange;
+}
+.fa-landmark{
+    background-color: rgb(52, 194, 241);
+}
+.fa-filter{
+    background-color: rgb(80, 236, 80);
+}
+main div{
+    flex-grow: 1;
+    flex-basis: 150px;
+}
+main div img{
+    width: 100%;
 }
