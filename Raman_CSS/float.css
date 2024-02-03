@@ -1,0 +1,38 @@
+/* div{
+    background-color: lightskyblue;
+    overflow: auto;
+    width: 50%;
+    height: 500px;
+}
+h1{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+img{
+    width: 50%;
+    margin: auto;
+    float: right;
+    float: left;
+    padding-right: 20px;
+}
+div{
+    color: darkred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+} */
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: aqua;
+    display: flex;
+    margin: 20px;
+    flex-wrap: nowrap;
+    overflow: auto;
+    gap: 30px;
+}
+img{
+    width: 200px;
+} */

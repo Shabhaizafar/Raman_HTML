@@ -1,0 +1,66 @@
+@media screen and (min-width:1000px) {
+    body{
+        background-color: lightskyblue;
+    }
+    h1{
+        color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    img{
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+    p{
+        color: darkred;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: justify;
+    }
+}
+/* -------------------------------- */
+@media screen and (max-width:1000px) and (min-width:768px) {
+    body{
+        background-color: black;
+    }
+    h1{
+        color: yellow;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    p{
+        color: lightcyan;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: justify;
+    }
+}
+/* --------------------------- */
+
+@media screen and (max-width:1000px) and (min-width:768px) {
+    body{
+        background-color: black;
+    }
+    h1{
+        color: yellow;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    img{
+        display: inline-block;
+        width: 50%;
+        margin: auto;
+        vertical-align: top;
+    }
+    p{
+        width: 49%;
+        display: inline-block;
+        color: lightcyan;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: justify;
+    }
+}
