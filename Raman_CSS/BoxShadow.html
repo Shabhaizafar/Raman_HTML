@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: aqua;
+        }
+        div{
+            width: fit-content;
+            height: auto;
+            font-size: 60px;
+            background-color: black;
+            margin: 100px auto 0px;
+            color: aqua;
+
+            /* h-offset  v-offset blur color */
+            box-shadow: 5px 5px 200px 15px aqua;
+
+            /* box-shadow: 5px 5px 0px aqua, -5px -5px 0px aqua; */
+            /* box-shadow: 5px -5px 10px aqua, -5px 5px 10px aqua,5px 5px 10px aqua, -5px -5px 10px aqua; */
+
+             /* h-offset  v-offset blur color */
+            text-shadow: 4px 4px 10px aqua;
+        }
+        img{
+            width: 300px;
+            height: 300px;
+            /* box-shadow: 5px 5px 10px aqua; */
+            /* filter: drop-shadow(5px 5px 10px aqua); */
+
+            /* filter: blur(10px); */
+            /* filter: brightness(1000%); */
+            /* filter: saturate(1000%); */
+            /* filter: contrast(1000%); */
+            /* filter: grayscale(.5); */
+            /* filter: hue-rotate(120deg); */
+
+            /* filter: opacity(0); */
+            /* filter: sepia(.5); */
+            /* filter: invert(1); */
+
+            filter: invert() drop-shadow(5px 5px 5px aqua);
+        }
+        img:hover{
+            filter: blur(0px);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        HTML
+    </div>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Firefox_logo%2C_2017.png" alt="">
+</body>
+</html>
