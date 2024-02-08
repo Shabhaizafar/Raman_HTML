@@ -27,19 +27,19 @@ article{
     padding: 50px 20px;
     gap: 10px;
 }
-.content-1{
+.content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* grid-template-rows:  auto auto; */
+    text-align: justify;
 }
-.content-1 img{
+.content img{
     width: 100%;
     height: 100%;
     
 }
-.content-1 p{
+.content p{
     grid-column: 1/span 2;
-    grid-row: 2;
+
     text-align: justify;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 12px;
@@ -48,5 +48,87 @@ article{
     grid-column: 1/span 2;
     grid-row:  1/ span 2;
 }
-
-/* https://visme.co/blog/wp-content/uploads/2018/03/How-Grids-Can-Help-You-Create-Professional-Looking-Designs-Composite-Grids.png */
+.content-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:20px;
+    gap: 10px;
+}
+.content-3{
+    padding: 50px 30px;
+}
+.content-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:20px;
+    gap: 10px;
+    text-align: justify;
+}
+.content-1 h3{
+    text-align: right;
+}
+.content-1 img{
+    grid-column: 1/span 2;
+}
+.content-21{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;  
+}
+.content-21 h3{
+    text-align: center;
+}
+.content-3{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.content-3 h3{
+    grid-column: 1/span 2;
+}
+.content-5{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 0px 20px 10px;
+    grid-template-rows: 1fr .5fr;
+}
+.content-5 span{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    column-count: 2;
+    padding-right: 10px;
+}
+.content-51{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px 10px 20px 0px;
+    grid-template-rows: 1fr .5fr;
+}
+.content-51 img{
+    transform: scaleX(-1);
+}
+.content-51 h3{
+    padding-left: 30px;
+}
+.content-6 p{
+    column-count: 2;
+    column-gap: 20px;
+}
+#cn-9{
+    grid-column: 1/span 2;
+    text-align: right;
+}
+.content-8{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    padding: 60px  0px 40px 20px;
+}
+.content-81{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    padding: 60px 20px 40px 0px;
+}
+.content-81 h3{
+    text-align: right;
+}
